@@ -106,4 +106,5 @@ $ tree -L 1
 > 更多用法自行探索.
 
 ## 成果展示
-<!-- ![Alt text](/assets/img/image1.png) -->
+
+![image_of_blog](/assets/img/image1.png)
