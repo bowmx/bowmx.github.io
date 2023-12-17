@@ -6,6 +6,7 @@ categories: [Web, 博客搭建]
 tags: [blog]   
 ---
 这是这个site的第一篇blog, 我们以这个折腾了一天的东西为始, 分享一下来自对web技术几乎零基础的人的经验.
+
 # 环境搭建
 ## Repo侧
 - 这里我是用的是免费的github pages和开源的'Jekyll Chirpy Theme'.
@@ -65,6 +66,7 @@ $ tree -L 1
     - 左侧标签.
 - index.html
     - 主页的HTML源文件, 没有特殊需求不用动.
+
 # 发布blog
 ## Option 1
 - 在_posts下创建一个markdown格式的文件, 其命名格式为`YYY-MM-DD-NAME.md`
@@ -102,3 +104,6 @@ $ tree -L 1
 - push到github
 
 > 更多用法自行探索.
+
+# 成果展示
+![Alt text](../_data/images/2023-12-17-build-blog_1.png)
