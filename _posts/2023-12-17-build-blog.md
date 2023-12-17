@@ -106,4 +106,4 @@ $ tree -L 1
 > 更多用法自行探索.
 
 ## 成果展示
-<!-- ![Alt text](/assets/images/2023-12-17-build-blog_1.png) -->
+![Alt text](/assets/images/image1.png)
