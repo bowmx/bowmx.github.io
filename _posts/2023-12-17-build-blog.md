@@ -7,15 +7,15 @@ tags: [blog]
 ---
 这是这个site的第一篇blog, 我们以这个折腾了一天的东西为始, 分享一下来自对web技术几乎零基础的人的经验.
 
-# 环境搭建
-## Repo侧
+## 环境搭建
+### Repo侧
 - 这里我是用的是免费的github pages和开源的'Jekyll Chirpy Theme'.
 - 我们直接进入[Github-chirpy-starter](https://github.com/cotes2020/chirpy-starter), 然后点击右上角 `Use this template` -> `Create a new repository`然后在`Repository name` 一栏中填入<USRE_NAME>.github.io, 然后你就会在自己github的repositories看到自己刚刚创建好的repo, 就此Repo环境搭建完成.
 - 直接在浏览器中访问<USRE_NAME>.github.io,就应该可以看到一个模板页面了.
 
 > 你也可以通过fork别的repo来达成这一结果, 就不再赘述了.
 
-## Local侧
+### Local侧
 - 首先我们需要安装ruby
     ```shell
     sudo apt install ruby-build
@@ -36,7 +36,7 @@ tags: [blog]
 
 >我是用的环境是WSL2下的Ubuntu 22.04.3 LTS, Windows和MacOS环境下可自行探索.
 
-# 项目结构
+## 项目结构
 ```shell
 $ tree -L 1
 .
@@ -67,8 +67,8 @@ $ tree -L 1
 - index.html
     - 主页的HTML源文件, 没有特殊需求不用动.
 
-# 发布blog
-## Option 1
+## 发布blog
+### Option 1
 - 在_posts下创建一个markdown格式的文件, 其命名格式为`YYY-MM-DD-NAME.md`
 - 文件头部需要加上以下
     ```yaml
@@ -82,7 +82,7 @@ $ tree -L 1
 - 本地检查格式
 - push到github
 
-## Option 2
+### Option 2
 每次都写日期很麻烦, 因此我们可以引入一个工具[jekyll-compose](https://github.com/jekyll/jekyll-compose).
 - 在项目根目录clone该工具
     ```shell
@@ -105,5 +105,5 @@ $ tree -L 1
 
 > 更多用法自行探索.
 
-# 成果展示
-![Alt text](../_data/images/2023-12-17-build-blog_1.png)
+## 成果展示
+![Alt text](/assets/images/2023-12-17-build-blog_1.png)
